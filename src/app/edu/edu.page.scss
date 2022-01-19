@@ -1,0 +1,17 @@
+#primero,#segundo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#primero img ,#segundo img{
+    width: 25%;
+}
+#primero strong,#segundo strong{
+    color: black;
+}
+.hr {
+    border-bottom: 1px solid #ccc;
+    margin:0 auto;
+    width: 90%;
+  }

@@ -1,20 +1,56 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> CV Mobile App </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div id="circle"></div>
+    <div>Enrique Hernández Segura</div>
+  </div>
+  <ion-card id="elementos">
+    <ion-card-subtitle
+      >Estudiante Desarollo de aplicaciones multiplataforma Campus
+      FP</ion-card-subtitle
+    >
+    <div id="iconos">
+      <div class="sub-iconos">
+        <div>
+          <ion-icon name="calendar"></ion-icon>
+          <span>1 de Octubre,1998</span>
+        </div>
+        <div><ion-icon name="home"></ion-icon><span>Madrid,España</span></div>
+      </div>
+      <div class="sub-iconos">
+        <div>
+          <ion-icon name="call"></ion-icon><span>+34 616 93 93 40</span>
+        </div>
+        <div>
+          <ion-icon name="mail"></ion-icon><span>l6cenrique@gmail.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="hr"></div>
+    <div id="resumen">
+      <p>
+        Trabajador con hambre de conocimiento, creativo y muy ambicioso. Buen
+        compañero, si hay algo en lo que puedo ayudar a otro lo haré ya sea en
+        conocimiento como en habilidades
+      </p>
+    </div>
+  </ion-card>
+  <div id="botones">
+    <ion-card
+      ><a routerLink="/edu" routerDirection="forward">
+      <img src="../../assets/images/education-24.png" /></a>
+      <p>Educación</p>
+    </ion-card
+    >
+    <ion-card
+      >
+      <a routerLink="/sk" routerDirection ="forward"><img src="../../assets/images/star.png" /></a>  
+      <p>Skills</p></ion-card
+    >
   </div>
 </ion-content>
