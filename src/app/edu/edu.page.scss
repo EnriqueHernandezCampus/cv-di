@@ -1,13 +1,14 @@
-#primero,#segundo{
+.elementos{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 5%;
 }
-#primero img ,#segundo img{
+.elementos img{
     width: 25%;
 }
-#primero strong,#segundo strong{
+.elementos strong{
     color: black;
 }
 .hr {

@@ -27,6 +27,9 @@ ion-card-subtitle {
   justify-content: space-around;
   align-items: flex-start;
 }
+.sub-iconos div{
+  align-items: center;
+}
 #circle {
   background: black;
   width: 100px;
@@ -60,7 +63,6 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 #botones img{
   width: 100px;
