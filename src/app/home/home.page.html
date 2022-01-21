@@ -1,35 +1,31 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title> CV MobileApp </ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
-  <div id="container">
+  <div id="container"></div>
+  <div id="nombre-titulo">
     <div id="circle"></div>
-    <div>Enrique Hernández Segura</div>
+    <p id="nombre" class="ion-text-center">Enrique Hernández Segura</p>
   </div>
   <ion-card id="elementos">
-    <ion-card-subtitle
-      >Estudiante Desarollo de aplicaciones multiplataforma Campus
-      FP</ion-card-subtitle
-    >
+    <span id="titulo">
+      Estudiante Desarollo de Aplicaciones Multiplataforma
+    </span>
+
     <div id="iconos">
       <div class="sub-iconos">
-        <div>
+        <div class="sub-sub-iconos">
           <ion-icon name="calendar"></ion-icon>
           <span>1 de Octubre,1998</span>
         </div>
-        <div><ion-icon name="home"></ion-icon><span>Madrid,España</span></div>
+        <div class="sub-sub-iconos"><ion-icon name="home"></ion-icon><span>Madrid,España</span></div>
       </div>
       <div class="sub-iconos">
-        <div>
-          <ion-icon name="call"></ion-icon><span>+34 616 93 93 40</span>
+        <div class="sub-sub-iconos">
+          <ion-icon name="call"></ion-icon><a href="callto:+34616939340">+34 616 93 93 40</a>
         </div>
-        <div>
-          <ion-icon name="mail"></ion-icon><span>l6cenrique@gmail.com</span>
-        </div>
-      </div>
+        <div class="sub-sub-iconos">
+          <ion-icon name="mail"></ion-icon><a href="mailto:enh3se@gmail.com">enh3se@gmail.com</a>
+        </div>      </div>
     </div>
     <div class="hr"></div>
     <div id="resumen">
@@ -41,17 +37,17 @@
     </div>
   </ion-card>
   <div id="botones">
-    <ion-card
-      ><a routerLink="/edu" routerDirection="forward">
-        <img src="../../assets/images/education-24.png"
-      /></a>
-      <p>Educación</p>
-    </ion-card>
-    <ion-card>
-      <a routerLink="/sk" routerDirection="forward"
-        ><img src="../../assets/images/star.png"
-      /></a>
-      <p>Skills</p></ion-card
-    >
+    <a routerLink="/edu" routerDirection="forward">
+      <ion-card>
+        <img src="../../assets/images/education-24.png"/>
+        <p>Formación</p>
+      </ion-card>
+    </a>
+    <a routerLink="/sk" routerDirection="forward">
+      <ion-card>
+        <img src="../../assets/images/star4.png"/>
+        <p>Skills</p>
+      </ion-card>
+    </a>
   </div>
 </ion-content>

@@ -3,12 +3,13 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title>Educación</ion-title>
+    <ion-title>Formación</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content id="contenido">
 <ion-card>
+  <p class="ion-text-center" id="academico">Académico</p>
   <div class="elementos">
     <img src="../../assets/images/campusfp.png"> 
     <strong>Desarrollo de aplicaciones Multiplataforma, Madrid, 2020-2022</strong>
@@ -26,15 +27,17 @@
   
 </ion-card>
 <ion-card>
-  <ion-card-subtitle>Idiomas</ion-card-subtitle>
+  <p class="ion-text-center">Idiomas</p>
   <div class="elementos">
     <img src="../../assets/images/spain.png">
     <strong>Español nativo</strong>
+    <ion-badge slot="end" style="background-color:#099761;">10/10</ion-badge>
   </div>
   <div class="hr"></div>
 <div class="elementos">
   <img src="../../assets/images/ingles.jpeg">
   <strong>Inglés nivel B2</strong>
+  <ion-badge slot="end" style="background-color:#099761;">9/10</ion-badge>
 </div>
 </ion-card>
 </ion-content>

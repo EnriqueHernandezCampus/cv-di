@@ -16,3 +16,25 @@
     margin:0 auto;
     width: 90%;
   }
+  p, #titulo, strong, span{
+    font-family: "Pluto";
+  }
+  p{
+    font-weight: 500;
+   
+  }
+  #titulo{
+    font-size: large;
+    font-weight: 700;
+  }
+  #nombre{
+    font-weight: 900;
+    font-size: large;
+  }
+  #contenido {
+    --background: url(../../assets/images/fondo2.jpg) no-repeat;
+  
+  }
+  #academico{
+      margin-bottom: 0;
+  }

@@ -1,0 +1,21 @@
+.elementos img {
+  width: 15%;
+}
+.elementos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hr {
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+  width: 90%;
+}
+strong,
+span,p {
+  font-family: "Pluto";
+}
+#contenido {
+  --background: url(../../assets/images/fondo2.jpg) no-repeat;
+
+}

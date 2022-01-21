@@ -2,6 +2,11 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+
+@font-face {
+  font-family: 'Pluto';
+  src: url(../assets/fonts/PlutoRegular.ttf);
+  }
 :root {
   /** primary **/
   --ion-color-primary: #3880ff;
